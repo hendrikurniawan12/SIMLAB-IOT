@@ -88,25 +88,12 @@
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">
         <li>
-          <div class="dropdown drp-user">
-            <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="feather icon-user"></i> -->
-            </a>
-            <div class="dropdown-menu dropdown-menu-right profile-notification">
-              <div class="pro-head">
-                <img src="assets/images/user/avatar-1.jpg" class="img-radius" alt="User-Profile-Image">
-                <span>John Doe</span>
-                <a href="auth-signin.html" class="dud-logout" title="Logout">
-                  <i class="feather icon-log-out"></i>
-                </a>
-              </div>
-            </div>
-          </div>
+          <a href="<?= base_url() ?>auth/logout">
+            <i class="feather icon-log-out"></i> Keluar
+          </a>
         </li>
       </ul>
     </div>
-
-
   </header>
   <!-- [ Header ] end -->
 
